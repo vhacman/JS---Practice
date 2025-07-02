@@ -1,0 +1,103 @@
+SEO e Meta Tag
+SEO (Search Engine Optimization) è il processo di ottimizzazione dei contenuti,
+semantica e struttura di un sito per migliorarne il posizionamento nei risultati dei motori di ricerca.
+Meta Tag: dati su altri dati
+
+Si trovano nel <head> e non sono visibili nel browser. Sintassi:
+
+<meta name="..." content="...">
+
+Meta tag comuni:
+
+-author → Specifica autore o azienda.
+-description → Riassunto dei contenuti; usato nei risultati di ricerca.
+
+-robots → 
+Istruzioni per i bot:
+
+index → Analizza la pagina
+follow → Visita i link
+noindex → Non analizzare la pagina (non affidabile)
+nofollow → Non seguire i link (non affidabile)
+
+-viewport → Essenziale per mobile e SEO moderno
+usato per migliorare la visualizzazione su dispositivi mobili:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+-keywords → Obsoleto; ignorato o penalizzato dai motori.
+
+Esempio:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+1. Struttura generale dei meta tag
+
+Un tag <meta> può avere diversi attributi. I principali sono:
+name: Specifica il tipo di informazione (es. "author", "description", "viewport").
+content: Il valore dell’informazione (es. "John Doe", "This is my page", ecc.).
+charset: Specifica la codifica dei caratteri della pagina (es. UTF-8).
+<meta charset="UTF-8">
+
+http-equiv: Simula un'intestazione HTTP, usata raramente.
+<meta http-equiv="refresh" content="30">
+
+
+2. Meta tag di base (SEO)
+Meta tag utili per la SEO (Search Engine Optimization):
+
+<meta name="description" content="...">
+Breve descrizione della pagina, usata spesso nei risultati di ricerca.
+
+<meta name="title" content="...">
+Specifica il titolo della pagina.
+
+<meta name="author" content="...">
+Nome dell’autore o dell’organizzazione.
+
+<meta name="language" content="english">
+Indica la lingua del contenuto.
+
+<meta name="robots" content="index,follow">
+Dice ai motori di ricerca di indicizzare la pagina e seguire i link.
+
+<meta name="googlebot" content="notranslate">
+Impedisce a Google di tradurre la pagina.
+
+<meta name="revised" content="...">
+Specifica la data/ora dell’ultima modifica.
+
+<meta name="rating" content="safe for kids">
+Indica che il contenuto è adatto ai bambini.
+
+<meta name="copyright" content="Copyright 2022">
+Inserisce un’indicazione di copyright.
+
+3. Meta tag con http-equiv
+Questi meta tag emulano le intestazioni HTTP, ma non sono raccomandati quanto l’uso di intestazioni HTTP vere:
+
+<meta http-equiv="content-type" content="text/html">
+Tipo MIME del contenuto HTML.
+
+<meta http-equiv="default-style" content="...">
+Indica lo stile CSS predefinito.
+
+<meta http-equiv="refresh" content="30">
+Ricarica la pagina ogni 30 secondi.
+
+<meta http-equiv="Content-language" content="en">
+Specifica la lingua della pagina.
+
+<meta http-equiv="Cache-Control" content="no-cache">
+Chiede al browser di non usare la cache.
+
+4. Meta tag per design responsive / dispositivi mobili
+Meta tag per ottimizzare l’esperienza su smartphone e tablet:
+
+<meta name="format-detection" content="telephone=yes">
+Rende i numeri telefonici cliccabili.
+
+<meta name="HandheldFriendly" content="true">
+Indica che la pagina è ottimizzata per dispositivi mobili.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Fondamentale per il responsive design: adatta la visualizzazione alla larghezza del dispositivo
