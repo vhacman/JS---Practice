@@ -1,0 +1,48 @@
+HTML = hypertext Markup Language
+e' un linguaggio di markup, non di programmazione. serve a creare la struttura di una pagina web. definisce il contenuto
+di immagini, link, video etc.
+
+Nato nel 1990 per condividere informazioni online.
+All’inizio supportava solo testo e immagini semplici.
+Oggi può:
+Gestire contenuti multimediali
+Definire form complessi
+Supportare layout responsive
+Migliorare l’accessibilità e la validazione dell’input
+
+CSS = Cascading Style Sheets
+
+È un linguaggio di stile, non di programmazione.
+Serve a:
+Definire l’aspetto di una pagina HTML
+Personalizzare colori, spaziature, font, posizionamenti, animazioni
+
+Caratteristiche principali
+Separazione tra contenuto e stile
+→ Puoi cambiare il design senza toccare l’HTML.
+Ha funzionalità “programmabili” come:
+Variabili
+Nesting (regole annidate)
+Chi gestisce HTML e CSS?
+Il W3C (World Wide Web Consortium)
+→ Definisce gli standard ufficiali e aggiorna le specifiche
+→ Lavora per migliorare continuamente HTML e CSS secondo le esigenze moderne
+
+Cosa c’è di nuovo in CSS (dal 2011 in poi)
+Funzione CSS	                Cosa fa
+Media Queries	            -Applica stili diversi in base al dispositivo o alla larghezza dello schermo
+Box-sizing	                -Specifica come calcolare larghezza e padding degli elementi
+Multiple Backgrounds	    -Applica più immagini di sfondo a un solo elemento
+Border Images	            -Usa immagini per disegnare i bordi degli elementi
+Text Shadows	            -Aggiunge ombre al testo per un effetto tridimensionale
+Transforms & Transitions	Crea animazioni fluide e trasformazioni CSS
+
+DOM – Document Object Model
+
+“Il DOM è la rappresentazione del tuo documento HTML come oggetto”
+Ogni elemento HTML è trattato come un oggetto all’interno di una struttura ad albero
+JavaScript interagisce con il DOM per:
+Modificare il contenuto
+Gestire eventi (click, input, scroll…)
+Applicare animazioni dinamiche
+
