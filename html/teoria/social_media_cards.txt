@@ -50,3 +50,10 @@ Forniscono ai web crawler metadati strutturati utili per indicizzare correttamen
 Aiutano a migliorare il posizionamento nei risultati di ricerca.
 Consentono di monitorare il traffico proveniente dai social verso il sito.
 
+
+Meta per il refresh automatico
+Per ricaricare una pagina automaticamente, si usa:
+<meta http-equiv="refresh" content="30">
+http-equiv → istruzione al browser
+content → tempo in secondi prima del refresh
+
