@@ -1,67 +1,52 @@
-Un form HTML è uno strumento per raccogliere dati da parte dell’utente. È composto da elementi `<form>` e input associati, come `<input>`, `<textarea>`, `<select>`. I dati raccolti vengono inviati a un server per essere elaborati.
+Un form HTML è uno strumento per raccogliere dati da parte dell’utente.
+È composto da elementi `<form>` e input associati, come `<input>`, `<textarea>`, `<select>`. I dati raccolti vengono inviati a un server per essere elaborati.
 
-**Problema:** dati errati inseriti dall’utente possono compromettere la funzionalità dell’applicazione. Esempio: un utente inserisce un indirizzo di consegna inesistente. Se il form accetta il dato senza verifica, l’ordine non arriva. Fallimento dell’interazione.
+**Problema:** 
+dati errati inseriti dall’utente possono compromettere la funzionalità dell’applicazione. 
+Esempio: un utente inserisce un indirizzo di consegna inesistente. 
+Se il form accetta il dato senza verifica, l’ordine non arriva. Fallimento dell’interazione.
 
-**Soluzione:** validazione del form.
+**Soluzione:** 
+validazione del form.
 
----
+Validazione
+La validazione è il processo di controllo dei dati inseriti affinché rispettino regole prestabilite. 
 
-### Validazione
+Esistono due modalità:
 
-La validazione è il processo di controllo dei dati inseriti affinché rispettino regole prestabilite. Esistono due modalità:
-
----
-
-### Client-side validation (validazione lato client)
-
-Esegue il controllo direttamente nel browser, prima che i dati raggiungano il server. Vantaggi: feedback immediato, minore carico sul server. Limiti: può essere aggirata, quindi non affidabile da sola.
-
+-Client-side validation (validazione lato client)
+Esegue il controllo direttamente nel browser, prima che i dati raggiungano il server. Vantaggi:
+feedback immediato, minore carico sul server. Limiti: può essere aggirata, quindi non affidabile da sola.
 Meccanismi:
+**Attributi HTML**:
+  * required: impedisce l’invio se il campo è vuoto.
+  * type="email": accetta solo email in formato valido.
+  * type="tel": accetta solo valori compatibili con numeri telefonici.
+  * type="url": richiede un URL ben formato (es. https\://...).
+  * type="number": accetta solo numeri.
+  * type="range": impone valori minimi e massimi.
+  * type="date", `type="time"`: accettano solo valori di tipo data/ora.
+  * type="color": mostra selettore colore.
+**Messaggi di errore automatici**: 
+il browser blocca l’invio e segnala l’errore visivamente.
+**JavaScript**:
+ può essere usato per regole più complesse, ma è eseguito nel client e modificabile dall’utente.
 
-* **Attributi HTML**:
-
-  * `required`: impedisce l’invio se il campo è vuoto.
-  * `type="email"`: accetta solo email in formato valido.
-  * `type="tel"`: accetta solo valori compatibili con numeri telefonici.
-  * `type="url"`: richiede un URL ben formato (es. https\://...).
-  * `type="number"`: accetta solo numeri.
-  * `type="range"`: impone valori minimi e massimi.
-  * `type="date"`, `type="time"`: accettano solo valori di tipo data/ora.
-  * `type="color"`: mostra selettore colore.
-
-* **Messaggi di errore automatici**: il browser blocca l’invio e segnala l’errore visivamente.
-
-* **JavaScript**: può essere usato per regole più complesse, ma è eseguito nel client e modificabile dall’utente.
-
----
-
-### Server-side validation (validazione lato server)
-
-Esegue il controllo dopo che i dati sono stati inviati al server. È l’unico sistema affidabile per garantire la validità e la sicurezza dei dati. Viene eseguito da linguaggi server-side (es. PHP, Python, Node.js) e può includere:
-
+-Server-side validation (validazione lato server)
+Esegue il controllo dopo che i dati sono stati inviati al server.
+È l’unico sistema affidabile per garantire la validità e la sicurezza dei dati.
+Viene eseguito da linguaggi server-side (es. PHP, Python, Node.js) e può includere:
 * Verifica sintattica
 * Verifica logica
 * Controlli incrociati con database
 * Applicazione di regole aziendali
-
 Protegge da:
-
 * Dati manomessi
 * Iniezioni di codice
 * Tentativi di frode
 * Violazioni dei vincoli
 
----
-
-### Combinazione dei due metodi
-
+Combinazione dei due metodi
 Approccio standard: usare entrambi i livelli di validazione.
-
-* **Client-side** → migliora l’esperienza utente, previene errori banali.
-* **Server-side** → garantisce la correttezza e la sicurezza dei dati.
-
----
-
-### Conclusione
-
-La validazione dei form è un passaggio critico in qualsiasi interfaccia web. Il browser può effettuare controlli automatici attraverso input type e attributi HTML. Tuttavia, solo il server può eseguire verifiche affidabili e non eludibili. Entrambi i livelli sono necessari per bilanciare usabilità e robustezza del sistema.
+**Client-side** → migliora l’esperienza utente, previene errori banali.
+**Server-side** → garantisce la correttezza e la sicurezza dei dati.
