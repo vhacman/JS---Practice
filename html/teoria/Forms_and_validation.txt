@@ -50,3 +50,62 @@ Combinazione dei due metodi
 Approccio standard: usare entrambi i livelli di validazione.
 **Client-side** → migliora l’esperienza utente, previene errori banali.
 **Server-side** → garantisce la correttezza e la sicurezza dei dati.
+
+
+Validazione client-side e uso del CSS nei form HTML
+
+Problema iniziale
+Durante la compilazione di un form, un campo può diventare rosso dopo l’invio se contiene un errore. 
+Questo comportamento è legato alla validazione lato client e alla gestione visiva degli errori. Gli errori possono derivare da:
+
+Campi vuoti
+Valori troppo lunghi o troppo corti
+Formato non valido (es. email malformata)
+
+Obiettivo
+Evitare invii inutili al server e migliorare l’interazione utente mediante:
+
+HTML → per la definizione dei vincoli sui dati
+CSS → per fornire segnali visivi immediati sui campi errati
+
+Attributo required
+Obbliga l’utente a inserire un valore in un campo.
+Esempio:
+<input type="text" id="username" name="username" required>
+Effetto:
+Se il Campo è vuoto → il browser blocca l’invio
+Il focus viene portato sul campo mancante
+Messaggio di errore generato automaticamente
+
+Attributi minlength e maxlength
+Consentono di definire la lunghezza minima e massima dei dati accettati.
+Esempio:
+<input type="text" id="username" name="username" required minlength="3" maxlength="12">
+Effetti:
+Dato troppo corto o troppo lungo → errore immediato
+Il messaggio viene generato dal browser
+Nessuna richiesta HTTP viene inviata
+
+Efficienza
+Utilizzare required, minlength, maxlength:
+Riduce il carico sui server
+Intercetta gli errori prima che i dati vengano inviati
+Previen richieste HTTP inutili e risparmio di risorse lato backend
+Segnalazione visiva degli errori con CSS
+Uso delle pseudo-classi per modificare lo stile dinamicamente in base allo stato del campo.
+input:invalid {
+  border: 2px solid red;
+}
+Problema:
+All’avvio della pagina, tutti i campi vuoti sono invalidi
+Risultato: i bordi rossi appaiono subito, anche se l’utente non ha ancora interagito
+Soluzione:
+Combinazione con :focus per limitare l’evidenziazione all’interazione attiva:
+css
+input:invalid:focus {
+  border: 2px solid red;
+}
+Comportamento:
+La pagina si carica in stato neutro
+Se l’utente inizia a digitare e il dato è errato → bordo rosso
+
