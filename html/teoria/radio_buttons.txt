@@ -1,0 +1,75 @@
+I radio button:
+
+Sono ideali quando c'è un insieme di opzioni tra cui l'utente può sceglierne una sola.
+Bisogna creare gruppi di scelte esclusive.
+
+Per separare logicamente i gruppi di radio button:
+si usano <fieldset></fieldset>
+È utile per l’accessibilità e l’organizzazione semantica.
+<legend>
+Accompagna un <fieldset> per fornire un titolo descrittivo.
+
+
+Un elemento <form> in HTML è usato per raccogliere dati dall’utente. Può contenere:
+
+input di testo
+pulsanti
+menu a discesa
+radio button
+checkbox
+aree di testo
+
+3. Attributi principali dei radio button
+Attributo					Significato
+type="radio"				Specifica che è un radio button
+name						Identifica il gruppo di radio button. Essenziale per permettere la scelta esclusiva
+value						Il valore che verrà inviato al server quando quell’opzione è selezionata
+checked						Rende quell’opzione selezionata di default quando si carica la pagina
+
+ 5. Label e accessibilità
+Racchiudere un input e il suo testo descrittivo in un tag <label>:
+
+Aumenta l’area cliccabile (molto utile su dispositivi mobili)
+Migliora l’accessibilità per gli screen reader
+lega il testo all’input corrispondente in modo semantico
+
+
+CHEAT SHEET
+-required-
+rende il campo obbligatorio. L'utente non può inviare il form se il campo è vuoto.
+
+<input type="text" name="firstName" required>
+----
+
+-maxlenght-
+imposta il numero massimo di caratteri che l'utente può digitare
+<input type="text" name="description" maxlength="50">
+----
+
+-minlenght-
+imposta il numero minimo di caratteri che l'utente può digitare
+<input type="text" name="description" minlenght="50">
+---
+
+-min- e -max-
+definiscono valori numerici minimi e massimi accetati per input di tipo
+-number
+-range
+-date
+
+<input type="number" name="quantity" min="1" max="10">
+<input type="range" name="volume" min="1" max="100">
+----
+
+-multiple-
+permette all'utente di selezionare piu valori in un campo file o email.
+
+<input type="file" name="gallery" multiple>
+----
+
+-pattern-
+permette di specificare un formato(regex) che l'input deve rispettare.
+Funziona con input text, tel, email, url, password.
+<input type="tel" name="phone"
+       pattern="^(?:0|\+?44)(?:\d\s?){9,10}$">
+

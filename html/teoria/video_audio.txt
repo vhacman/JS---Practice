@@ -1,0 +1,30 @@
+VIDEO:
+
+basic structure:
+<video width="640" height="360" controls>
+  <source src="dance.mp4" type="video/mp4">
+  <source src="dance.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+I browser supportano MP4, WebM, OGG
+
+src: path to the video file
+type: MIME
+controls: aggiunge built-in video controls
+width & height: definisce le misure del player
+
+AUDIO:
+<audio controls>
+  <source src="sound.mp3" type="audio/mpeg">
+  <source src="sound.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+
+Supported formats: MP3, WAV, OGG
+Important MIME types:
+MP3 → audio/mpeg
+OGG → audio/ogg
+WAV → audio/wav
+Attributes:
+controls: adds play/pause and volume controls

@@ -1,0 +1,82 @@
+Cosa succede quando invii un form online.
+Quando ordini un prodotto online:
+inserisci i dati: indirizzo, numero di carta etcù
+clicchi su un pulsante: "ordina"
+
+Come comunica il browser con il server?
+
+Tutto avviene attraverso il ciclo di richiesta-risposta HTTP:
+il browser invia una richiesta(request)
+il server elabora e restituisce una risposta(response)
+
+
+METODO GET
+il metodo get, è usato per richiedere una risorsa(pagina, file, immagine)
+dal servere, ma può anche essere usato per trasmettere dati, come quelli di un form, attraverso URL.
+I dati inseriti nei campi del form vengono codificati come coppie chiave=valore.
+Queste coppie vengono aggiunge all'URL come query string.
+Separatore ? per iniziare la query string
+Separatore & tra le coppie.
+exemple:
+
+<form action="/search" method="get">
+ <input type="text" name="q">
+ <button type="submit">Search</button>
+</form>
+
+✅ Vantaggi
+Semplice da implementare
+
+I link sono condivisibili (es. URL dei risultati di una ricerca)
+Possono essere salvati nei preferiti
+Compatibile con browser, cache, bot e indicizzazione
+
+❌ Svantaggi
+Limitazione di lunghezza (~2000 caratteri per browser, ~4k per server)
+Dati visibili nella barra degli indirizzi, cronologia, log del server
+Non adatto a dati sensibili (es. password, carte di credito)
+Non ha un corpo HTTP, quindi non può gestire file (upload)
+
+🎯 Quando usare GET?
+Moduli di ricerca
+Filtri di visualizzazione (es. /products?color=red)
+Pagine informative che non modificano dati sul server
+Quando vuoi che l’URL rifletta lo stato del form
+
+METODO POST
+il metodo POST è usato per inviare dati al server che modificano lo stato della risorsa:
+esempio per inviare un ordine, creare un utente, scrivere un commento.
+I dati del form vengono inviati nel corpo (body) della richiesta HTTP
+Il browser non li mostra nell'URL.
+
+<form action="/submit" method="post">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <button type="submit">Login</button>
+</form>
+
+
+✅ Vantaggi
+Dati non visibili nell’URL
+Nessun limite pratico di lunghezza
+Supporta invio di file (multipart/form-data)
+Più sicuro per dati sensibili (ma solo se abbinato a HTTPS)
+
+❌ Svantaggi
+L’utente non può salvare o condividere l’URL con i dati
+Non memorizzabile nei segnalibri
+Richiede configurazione lato server per interpretare il corpo
+
+🎯 Quando usare POST?
+Moduli con dati sensibili (login, registrazione, pagamento)
+Moduli complessi o lunghi
+Quando i dati modificano lo stato del server
+Quando si usa file upload
+
+Sicurezza: 				GET 			vs			POST + HTTPS
+						GET							POST
+Visibilità dei dati		Alta (URL)					Bassa (nel corpo)
+Cronologia/cache		Sì							No
+Supporto HTTPS			Sì							Sì
+Protezione senza HTTPS	Nessuna						Minima
+Protezione con HTTPS	Buona (ma query visibile)	Ottima (dati criptati)
