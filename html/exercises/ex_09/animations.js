@@ -26,7 +26,7 @@ let		radius = 40;
 */
 function	moveBall()
 {
-	if (position + radius > 640)
+	if (position + radius > 1920)
 	{
 		moveSpeed = -speed;
 	}
@@ -38,14 +38,14 @@ function	moveBall()
 }
 
 /*
-** clearRect() --> cancella il canvas per ridisegfnare il disegno da zero
+** clearRect() --> cancella il canvas per ridisegnare il disegno da zero
 ** fillStyle --> colore della palla
 ** arc(...) --> disegna un cerchio con centro orizzentale in position e vericle a 50 px
 ** fill() --> riempie il cerchio.
 */
 function	drawBall()
 {
-	context.clearRect(0, 0, 640, 480);
+	context.clearRect(0, 0, 1920, 1080);
 
 	context.fillStyle = "#62687f";
 	context.beginPath();
