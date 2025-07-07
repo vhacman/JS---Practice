@@ -18,8 +18,7 @@ Consente all’utente di scegliere un valore numerico usando uno slider.
 
 
 <label for="booking_people">Number of People</label>
-<input type="range" id="booking_people" name="booking_people"
-       min="1" max="10">
+<input type="range" id="booking_people" name="booking_people" min="1" max="10">
 
  Caratteristiche:
 Visualizza uno slider orizzontale.

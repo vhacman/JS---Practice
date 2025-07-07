@@ -1,0 +1,103 @@
+Un iFrame e' un elemento HTML che permette di inserire il contenuto di un altro sito web all'interno della tua pagina web.
+Quando usi un iFrame, stai incorporando un'altra pagina web all'interno della tua. E' come se quella pagina si aprisse in un'altra scheda del browser,
+ma resta visibile direttamente nella tua pagina. La pagina incorporata maniente il proprio HTML, CSS e Javascript. 
+EX:
+<iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+src: è l’indirizzo del contenuto che vuoi mostrare (come un video, una mappa, un post social...).
+
+width e height: definiscono la larghezza e l’altezza del riquadro.
+
+Gli iFrame si usano per mostrare le pubblicita', per incorporare video di youtube, per mostrare mappe interattive, per integrare
+post di Instagram, Twitter. 
+
+Gli iframe possono essere pericolosi, perché il contenuto incorporato:
+
+può eseguire codice JavaScript,
+può tentare di rubare dati,
+può aprire pop-up o scaricare file.
+
+MIGLIORARE LA SICUREZZA DI UN IFRAME:
+
+attruibuto: allow
+Serve a limitare l'accesso a certe funzionalita' del browser (coome fotocamera e microfono)
+ex:
+<iframe src="..." allow="camera 'none'; microphone 'none'"></iframe>
+
+Attributo: sandbox
+ex>:
+Serve a limitare il comportamento del contenuto incorporato.
+Se lo usi senza valore, tutte le restrizioni vengono attivate:
+<iframe src="..." sandbox></iframe>
+se vuoi rimuovere alcune restrizioni puoi attivarle 
+<iframe src="..." sandbox="allow-downloads"></iframe>
+
+src
+URL della risorsa da incorporare.
+<iframe src="https://example.com"></iframe>
+
+srcdoc
+Contenuto HTML inline da visualizzare nel frame. Sovrascrive src.
+Esempio:
+<iframe src="fallback.html" srcdoc="<p>Contenuto inline</p>"></iframe>
+
+name
+Nome univoco dell’iframe, usato come target da link o script.
+Esempio:
+<iframe name="my-frame"></iframe>
+
+width, height
+Dimensioni espresse in pixel CSS.
+Default: width=300, height=150
+Esempio:
+<iframe width="400" height="300"></iframe>
+
+title
+Descrizione testuale per tecnologie assistive.
+Esempio:
+<iframe src="content.html" title="Contenuto storico"></iframe>
+
+loading
+Controlla il momento del caricamento.
+Valori:
+lazy: carica al bisogno
+eager: carica immediatamente
+Esempio:
+<iframe src="content.html" loading="lazy"></iframe>
+
+
+referrerpolicy
+Controlla l’intestazione HTTP Referer.
+Valori comuni:
+
+no-referrer
+origin
+strict-origin
+Esempio:
+<iframe src="page.html" referrerpolicy="no-referrer"></iframe>
+
+
+allow
+Concede accesso a funzionalità browser.
+Sintassi: elenco separato da ;
+Esempi:
+allow="fullscreen"
+allow="camera; microphone"
+
+
+sandbox
+Imposta restrizioni di sicurezza.
+Senza valore: applica tutte le restrizioni.
+Valori comuni (spazio-separati):
+
+allow-forms
+allow-scripts
+allow-popups
+allow-downloads
+allow-modals
+allow-presentation
+allow-orientation-lock
+Esempio (restrizioni attive eccetto form e script):
+
+<iframe src="sandboxed.html" sandbox="allow-forms allow-scripts"></iframe>
+

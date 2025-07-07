@@ -28,3 +28,20 @@ OGG → audio/ogg
 WAV → audio/wav
 Attributes:
 controls: adds play/pause and volume controls
+
+
+Per le immagini: the web browser only supports specific file types. These file types are: 
+
+.APNG – Animated Portable Network Graphics 
+
+.AVIF – AV1 Image Format 
+
+.GIF – Graphics Interchange Format 
+
+.JPEG / .JPG – Joint Photographic Expert Group image format 
+
+.PNG – Portable Network Graphics 
+
+.SVG – Scalable Vector Graphics 
+
+.WEBP – Web Picture Format 
