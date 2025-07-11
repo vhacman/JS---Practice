@@ -1,11 +1,12 @@
 // Esercizio 1
 // Scrivi un programma che prenda un array di numeri
-// e calcoli la somma di tutti gli elementi.
+// e calcoli la sum di tutti gli elementi.
 
 const numeri = [1, 2, 3, 4, 5];
-let somma = 0;
+let sum = 0;
+let number;
 
-for (let numero of numeri){
-    somma += numero;
+for (number of numeri){
+    sum += number;
 }
-console.log("La somma dei numeri e':", somma);
+console.log("The sum of numbers is:", sum);

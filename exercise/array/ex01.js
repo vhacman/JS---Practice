@@ -5,11 +5,11 @@
 const  nums = [1, 4, 7, 6, 3, 9];
 let max = nums[0];
 
-for(let numero of nums){
-    if (numero > max)
+for(let numbers of nums){
+    if (numbers > max)
     {
-        max = numero;
+        max = numbers;
     }
 }
 
-console.log("Il valore massimo e':", max);
+console.log("Max value is:", max);

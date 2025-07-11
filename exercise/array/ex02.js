@@ -1,16 +1,17 @@
 
 // Esercizio 3
-// Scrivi un programma che prenda un array di numeri
-// e trovi il valore minimo.
+// Scrivi un programma che prenda un array di num
+// e trovi il valore min.
 
-let numeri = [1, 2, 3, 4, 5, 6, 64, 98, 453];
-let minimo = numeri[0];
+let numbers = [1, 2, 3, 4, 5, 6, 64, 98, 453];
+let num;
+let min = numbers[0];
 
-for(let numero of numeri){
-    if(numero < minimo)
+for(num of numbers){
+    if(num < min)
     {
-        minimo = numero;
+        min = num;
     }
 }
 
-console.log("Il valore minimo e':", minimo);
+console.log("min value is:", min);

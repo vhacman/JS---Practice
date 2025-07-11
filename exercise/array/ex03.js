@@ -5,12 +5,12 @@
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 let even = [];
 
-for (let numero of numbers) {
-	if (numero % 2 == 0){
-		even.push(numero);
+for (let number of numbers) {
+	if (number % 2 == 0){
+		even.push(number);
 	}
 }
 
-console.log(even);
+console.log("even numbers: ", even);
 
 // il metodo per “inserire” un valore in un array --> PUSH

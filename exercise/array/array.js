@@ -1,9 +1,4 @@
 
-// Esercizio 7
-// Scrivi un programma che prenda un array di stringhe
-// e un elemento di ricerca, e restituisca l'indice
-// della prima occorrenza dell'elemento nell'array.
-
 // Esercizio 8
 // Scrivi un programma che prenda un array
 // e inverta l'ordine degli elementi.
