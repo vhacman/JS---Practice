@@ -1,4 +1,4 @@
- Cos’è JavaScript
+Cos’è JavaScript
 JavaScript è un linguaggio di programmazione:
 
 creato per aggiungere interattività alle pagine web.
@@ -42,8 +42,6 @@ const numeri = [1, 2, 3];
 const raddoppiati = numeri.map(raddoppia); // [2, 4, 6]
 
 
-
-
 TIPI DI DATO PRIMITIVO:
 | Tipo        | Esempio         | Spiegazione                    |
 | ----------- | --------------- | ------------------------------ |
@@ -59,7 +57,7 @@ TIPO DI DATO COMPLESSO:
 OGGETTI
 ARRAY
 
-oggetto: 
+oggetto:
 let persona = {
   nome: "Luca",
   età: 30,
@@ -80,7 +78,7 @@ LE VARIABILI:
 | `const`       | blocco `{}` | no            | costante, non riassegnabile |
 
 FUNZIONE:
-un blocco di codice riutilizzabile, che può prendere dati in ingresso (parametri) e restituire un valore. 
+un blocco di codice riutilizzabile, che può prendere dati in ingresso (parametri) e restituire un valore.
 
 function somma(a, b) {
   return a + b;
@@ -107,3 +105,28 @@ ESECUZIONE E INTERPRETAZIONE
 Il codice JavaScript è eseguito dal browser, riga per riga (linguaggio interpretato).
 Ogni script ha un event loop, cioè un meccanismo che gestisce il flusso di eventi e funzioni da eseguire.
 Le funzioni asincrone (come setTimeout, fetch, eventListener, requestAnimationFrame) non bloccano l’esecuzione del codice: vengono messe in coda e gestite quando pronte.
+
+Non c'è la necessità di includere o importare alcuna libreria perché il motore di JS li fornisce
+nativamente.
+Tutti i metodi arrat.prototype e gli oggetti globali (se, map, promise) sono definiti nella
+specifica di ECMAScript
+Quando il browser o node carica il tuo script, li ha già pronti in memoria. 
+------------------------------------------------------------------------------------------------------------
+LE VARIABILI
+Il contesto storico
+All’inizio, con var, tutte le variabili vivevano in un grande magazzino (lo scope della funzione o globale) e venivano “tirate fuori” (hoisted) in cima, ma inizializzate a undefined. Era comodo, ma spesso portava sorprese: potevi ridefinire la stessa variabile in un punto e ritrovarti con un valore diverso altrove senza volerlo.
+
+Entrano in scena let e const
+Per risolvere questi inciampi, ES6 ha introdotto due nuovi tipi di scatole:
+
+let:
+Pensala come una cassetta di sicurezza che esiste solo all’interno di un preciso ambiente delimitato da parentesi { … }.
+Se la dichiari dentro un if, sparisce appena esci da quell’if.
+Non puoi accedervi prima del punto in cui la dichiari: se provi, JavaScript ti blocca («ReferenceError»), perché sei in quella che si chiama “temporal dead zone”.
+Puoi però cambiarne il contenuto tutte le volte che vuoi: è come un quaderno dove puoi scrivere, cancellare e riscrivere.
+
+const:
+È simile a let per scope e temporalità, ma una volta che scrivi qualcosa dentro, non puoi più cambiare il riferimento.
+Se è un numero o una stringa, diventa davvero “immutabile”: non puoi più riassegnarla.
+Se è un oggetto o un array, rimane “legato” a quel contenitore, ma puoi modificarne le proprietà o aggiungere elementi: il contenitore resta lo stesso, non puoi però sostituirlo con un altro.
+

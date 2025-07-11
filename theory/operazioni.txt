@@ -1,0 +1,8 @@
+UNIQUE
+
+È un'operazione che restituisce un nuovo array contenente unicamente
+le prime occorrenze di ciascun elemento, mantenendo l'originale intatto.
+
+è NON MUTATIVO.
+
+

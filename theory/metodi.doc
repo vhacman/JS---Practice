@@ -1,0 +1,66 @@
+11/07/2025
+
+I METODI:
+
+PUSH:
+È un metodo mutativo che aggiunge uno o più elementi alla fine
+dell'array su cui viene invocato e ne restituisce la  nuova lunghezza.
+
+array.push();
+
+Riceve parametri: elem1, elem2, …
+Appende in coda, incrementando length.
+Ritorno: nuova lunghezza.
+
+ex1:
+
+let train = [element1, element2];
+let newLenght = train.push(element3, element4);
+
+ex2:
+
+let convoy1 = ['A', 'B'];
+let convoy2 = ['C', 'D'];
+let newTrain = convoy1.concat(convoy2, 'E');
+-----------------------------------------------------------------------
+CONCAT:
+È un metodo non mutativo che crea e restituisce un nuovo array risultante dalla
+concatenazione dell'array chiamante con uno o più argomenti
+
+array1.concat(array2);
+
+Riceve parametri: arg1, arg2, …
+Se arg è array ⇒ ne espande gli elementi.
+Se arg è valore ⇒ lo inserisce come singolo elemento.
+Costruisce un array ex novo.
+Ritorno: il nuovo array concatenato.
+-----------------------------------------------------------------------
+MUTABILITÀ VS. IMMUTABILITÀ
+un metodo mutativo modifica lo stato interno dell'array esistente.
+un metodo non mutativo restituisce un array distinto, lasciando
+immutati gli originali.
+-----------------------------------------------------------------------
+
+PRINCIPIO DELLA LOCALITÀ DEI DATI
+Il push sfrutta la proprietà di località d'esensione di un array(appen solo in coda)
+
+PUREZZA DELLE FUNZIONI
+Concat si avvicina al paradigma funzionale: non alterare dati esterni --> facilita reasoning e testing
+-------------------------------------------------------------------------
+
+INCLUDES
+
+È un metodo molto comodo per verificare se un array contiene(cioè include) un certo valore
+
+let unique = [1, 2, 3, 5, 4];
+
+Quando si scrive: unique.includes(3);
+stai chiedendo:
+"c'è il valore 3 dentro all'array "unique"?
+
+come funziona:
+prende l'argomento, scorre l'array dall'inizio alla fine, confronta ciascun elemento con il valore
+cercato usando l'operatore di uguaglianza (==)
+Appena trova una corrispondenza restituisce true, se arriva alla fine senza trovare nulla restituisce false.
+
+
