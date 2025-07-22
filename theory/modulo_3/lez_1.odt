@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:date>2025-07-11T17:50:34.297900041</dc:date><meta:editing-duration>PT6M19S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="2" meta:paragraph-count="38" meta:word-count="338" meta:character-count="2279" meta:non-whitespace-character-count="1902"/></office:meta>
+ <office:meta><dc:date>2025-07-22T15:45:12.890096139</dc:date><meta:editing-duration>PT34M53S</meta:editing-duration><meta:editing-cycles>6</meta:editing-cycles><meta:generator>LibreOffice/7.3.7.2$Linux_X86_64 LibreOffice_project/30$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="3" meta:paragraph-count="58" meta:word-count="609" meta:character-count="4207" meta:non-whitespace-character-count="3570"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">29369</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">59531</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">27832</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">30528</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">31471</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">9220</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">34812</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">12266</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">76606</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">29369</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">27831</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">60838</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">59531</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">30526</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">91001</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ZoomFactor" config:type="short">160</config:config-item>
-     <config:config-item config:name="IsSelectedFrame" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
@@ -88,7 +88,7 @@
    <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">608615</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1014374</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -199,56 +199,57 @@
   <style:style style:name="Strong_20_Emphasis" style:display-name="Strong Emphasis" style:family="text">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
+  <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
   <style:style style:name="Graphics" style:family="graphic">
    <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph"/>
   </style:style>
   <text:outline-style style:name="Outline">
-   <text:outline-level-style text:level="1" style:num-format="">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="2" style:num-format="">
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="3" style:num-format="">
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="4" style:num-format="">
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="5" style:num-format="">
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="6" style:num-format="">
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="7" style:num-format="">
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="8" style:num-format="">
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="9" style:num-format="">
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
    </text:outline-level-style>
-   <text:outline-level-style text:level="10" style:num-format="">
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab"/>
     </style:list-level-properties>
@@ -279,32 +280,68 @@
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" fo:background-color="#ffffff" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:line-height="100%"/>
-   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:line-height="100%"/>
-   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" fo:background-color="#ffa6a6" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" fo:background-color="#ffffff" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Chilanka" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0008538f" officeooo:paragraph-rsid="0008538f" fo:background-color="#ffa6a6" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties style:font-name="Chilanka" officeooo:rsid="00094967" officeooo:paragraph-rsid="00094967"/>
   </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="00094967" officeooo:paragraph-rsid="00094967" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="000962eb" officeooo:paragraph-rsid="000962eb" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:line-height="100%"/>
    <style:text-properties style:font-name="Chilanka" fo:font-weight="normal" officeooo:rsid="00094967" officeooo:paragraph-rsid="00094967" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="normal" officeooo:rsid="000962eb" officeooo:paragraph-rsid="000962eb" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:line-height="100%"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="normal" officeooo:rsid="0009c1f8" officeooo:paragraph-rsid="0009c1f8" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="normal" officeooo:rsid="000ad013" officeooo:paragraph-rsid="000ad013" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="normal" officeooo:rsid="000c0b13" officeooo:paragraph-rsid="000c0b13" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="000ad013" officeooo:paragraph-rsid="000ad013" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="000c0b13" officeooo:paragraph-rsid="000c0b13" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="000dfaf3" officeooo:paragraph-rsid="000dfaf3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Chilanka" fo:font-weight="bold" officeooo:rsid="0009c1f8" officeooo:paragraph-rsid="0009c1f8" fo:background-color="#ffaa95" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
@@ -324,8 +361,11 @@
   <style:style style:name="T6" style:family="text">
    <style:text-properties style:font-name="Chilanka"/>
   </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="000ad013"/>
+  </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
-   <style:graphic-properties style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+   <style:graphic-properties style:vertical-pos="top" style:vertical-rel="paragraph" style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
   </style:style>
   <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:horizontal-pos="center" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -362,48 +402,19 @@
     <style:list-level-properties text:space-before="4.7272in" text:min-label-width="0.1965in"/>
    </text:list-level-style-bullet>
   </text:list-style>
-  <text:list-style style:name="L2">
-   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" loext:num-list-format="%1%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="0.2961in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" loext:num-list-format="%2%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="0.7882in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" loext:num-list-format="%3%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="1.2807in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" loext:num-list-format="%4%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="1.7728in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" loext:num-list-format="%5%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="2.2654in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" loext:num-list-format="%6%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="2.7579in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" loext:num-list-format="%7%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="3.25in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" loext:num-list-format="%8%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="3.7425in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" loext:num-list-format="%9%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="4.2346in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" loext:num-list-format="%10%." style:num-suffix="." text:bullet-char="•">
-    <style:list-level-properties text:space-before="4.7272in" text:min-label-width="0.1965in"/>
-   </text:list-level-style-bullet>
-  </text:list-style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:footnote-max-height="0in" loext:margin-gutter="0in">
+   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in" loext:margin-gutter="0in">
     <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
    <style:footer-style/>
   </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
  </office:automatic-styles>
  <office:master-styles>
-  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1"/>
  </office:master-styles>
  <office:body>
   <office:text text:use-soft-page-breaks="true">
@@ -418,12 +429,12 @@
    <text:p text:style-name="P2">Javascript e’ un linguaggio strettamente integrato con il browser e con la struttura dei documenti web.</text:p>
    <text:p text:style-name="P2">L’interazione di JS con la pagina HTML avviene attraverso il <text:span text:style-name="T1">DOM – document object model, </text:span>esso consente di rappresentare e manipolare la struttura gerarchica del documento come un insieme di oggetti collegati da relazioni padre-figlio.</text:p>
    <text:p text:style-name="P3">IL DOM COME MODELLO GERARCHICO</text:p>
-   <text:p text:style-name="P6">IL DOM<text:span text:style-name="T2"> e’ una rappresentazione ad albero del documento HTML. Ogni elemento della pagina e’ visto da JS come un oggetto e l’intero documento e’ organizzato in una struttura gerarchica di nodi. </text:span></text:p>
-   <text:p text:style-name="P6">IL NODO RADICE</text:p>
+   <text:p text:style-name="P7">IL DOM<text:span text:style-name="T2"> e’ una rappresentazione ad albero del documento HTML. Ogni elemento della pagina e’ visto da JS come un oggetto e l’intero documento e’ organizzato in una struttura gerarchica di nodi. </text:span></text:p>
+   <text:p text:style-name="P7">IL NODO RADICE</text:p>
    <text:p text:style-name="P4">Dal punto di vista di JS il nodo radice e’ <text:span text:style-name="T1">l’oggetto </text:span><text:span text:style-name="T5">window</text:span>, che rappresenta l’intera finestra del browser. Questo oggetto e’ il punto di accesso principale a tutti gli altri elementi del documento.</text:p>
-   <text:p text:style-name="P6">Window<text:span text:style-name="T2"> contiene tre sotto-oggetti fondamentali.</text:span></text:p>
-   <text:p text:style-name="P6">Document, location, history.</text:p>
-   <text:p text:style-name="P7">La struttura del documento</text:p>
+   <text:p text:style-name="P7">Window<text:span text:style-name="T2"> contiene tre sotto-oggetti fondamentali.</text:span></text:p>
+   <text:p text:style-name="P7">Document, location, history.</text:p>
+   <text:p text:style-name="P8">La struttura del documento</text:p>
    <text:p text:style-name="P5">All’interno dell’oggetto <text:span text:style-name="T1">document</text:span>, la struttura si articola:</text:p>
    <text:p text:style-name="P5">elemento radice: &lt;html&gt;&lt;/html&gt;, esso contiene a sua volta il tag &lt;body&gt;&lt;/body&gt;</text:p>
    <text:p text:style-name="P5"/>
@@ -438,32 +449,32 @@
    <text:p text:style-name="P5"><text:s text:c="4"/>&lt;p&gt;Nota a piè di pagina.&lt;/p&gt;</text:p>
    <text:p text:style-name="P5"><text:s text:c="2"/>&lt;/footer&gt;</text:p>
    <text:p text:style-name="P5">&lt;/article&gt;</text:p>
-   <text:p text:style-name="P8">In questo esempio:</text:p>
-   <text:list xml:id="list1659389378" text:style-name="L1">
+   <text:p text:style-name="P6">In questo esempio:</text:p>
+   <text:list xml:id="list4133962715" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P9"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">article</text:span></text:span><text:span text:style-name="T6"> è un nodo padre;</text:span></text:p>
+     <text:p text:style-name="P14"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">article</text:span></text:span><text:span text:style-name="T6"> è un nodo padre;</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P9"><text:span text:style-name="T6">i suoi figli diretti sono </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">header</text:span></text:span><text:span text:style-name="T6">, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">p</text:span></text:span><text:span text:style-name="T6"> e </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">footer</text:span></text:span><text:span text:style-name="T6">;</text:span></text:p>
+     <text:p text:style-name="P14"><text:span text:style-name="T6">i suoi figli diretti sono </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">header</text:span></text:span><text:span text:style-name="T6">, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">p</text:span></text:span><text:span text:style-name="T6"> e </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">footer</text:span></text:span><text:span text:style-name="T6">;</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P9"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">header</text:span></text:span><text:span text:style-name="T6"> contiene a sua volta un figlio, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">h1</text:span></text:span><text:span text:style-name="T6">;</text:span></text:p>
+     <text:p text:style-name="P14"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">header</text:span></text:span><text:span text:style-name="T6"> contiene a sua volta un figlio, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">h1</text:span></text:span><text:span text:style-name="T6">;</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P9"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">footer</text:span></text:span><text:span text:style-name="T6"> contiene un figlio, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">p</text:span></text:span><text:span text:style-name="T6">.</text:span></text:p>
+     <text:p text:style-name="P14"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">footer</text:span></text:span><text:span text:style-name="T6"> contiene un figlio, </text:span><text:span text:style-name="Source_20_Text"><text:span text:style-name="T6">p</text:span></text:span><text:span text:style-name="T6">.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P10">JS e’ in grado di navigare attraverso i nodi grazie a relazioni esplicite tra di essi. </text:p>
-   <text:p text:style-name="P11">ParentNode<text:span text:style-name="T2">: restituisce il nodo padre</text:span></text:p>
-   <text:p text:style-name="P11">firstChild:<text:span text:style-name="T2"> restituisce il primo figlio</text:span></text:p>
-   <text:p text:style-name="P11">lastChild:<text:span text:style-name="T2"> restituisce l’ultimo figlio</text:span></text:p>
-   <text:p text:style-name="P11">childNotes[index]:<text:span text:style-name="T2"> accede a un figlio specifico tramite indice. </text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T2">JavaScript fornisce una serie di metodi e proprietà per </text:span><text:span text:style-name="Strong_20_Emphasis">muoversi nel DOM</text:span><text:span text:style-name="T2"> e </text:span><text:span text:style-name="Strong_20_Emphasis">manipolare</text:span><text:span text:style-name="T2"> i suoi elementi. Questo processo è noto come &quot;</text:span><text:span text:style-name="T4">document traversal&quot;</text:span><text:span text:style-name="T2"> e permette di:</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T2">- selezionare elementi specifici</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T2">- modificare il contenuto</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T2">- ristrutturare la pagina in tempo reale.</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T2"/></text:p>
-   <text:p text:style-name="P11"><text:soft-page-break/><text:span text:style-name="T2">JavaScript, invece, è stato progettato sin dall’inizio per </text:span><text:span text:style-name="Strong_20_Emphasis">interagire nativamente con il browser</text:span><text:span text:style-name="T2"> e manipolare in tempo reale il contenuto della pagina. Questa stretta integrazione con il DOM è una delle </text:span><text:span text:style-name="Strong_20_Emphasis">caratteristiche fondanti</text:span><text:span text:style-name="T2"> del linguaggio e il motivo principale per cui è diventato lo </text:span><text:span text:style-name="Strong_20_Emphasis">standard per la programmazione web client-side</text:span><text:span text:style-name="T2">.</text:span></text:p>
+   <text:p text:style-name="P9">JS e’ in grado di navigare attraverso i nodi grazie a relazioni esplicite tra di essi. </text:p>
+   <text:p text:style-name="P10">ParentNode<text:span text:style-name="T2">: restituisce il nodo padre</text:span></text:p>
+   <text:p text:style-name="P10">firstChild:<text:span text:style-name="T2"> restituisce il primo figlio</text:span></text:p>
+   <text:p text:style-name="P10">lastChild:<text:span text:style-name="T2"> restituisce l’ultimo figlio</text:span></text:p>
+   <text:p text:style-name="P10">childNotes[index]:<text:span text:style-name="T2"> accede a un figlio specifico tramite indice. </text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T2">JavaScript fornisce una serie di metodi e proprietà per </text:span><text:span text:style-name="Strong_20_Emphasis">muoversi nel DOM</text:span><text:span text:style-name="T2"> e </text:span><text:span text:style-name="Strong_20_Emphasis">manipolare</text:span><text:span text:style-name="T2"> i suoi elementi. Questo processo è noto come &quot;</text:span><text:span text:style-name="T3">document traversal&quot;</text:span><text:span text:style-name="T2"> e permette di:</text:span></text:p>
+   <text:p text:style-name="P12">- selezionare elementi specifici</text:p>
+   <text:p text:style-name="P12">- modificare il contenuto</text:p>
+   <text:p text:style-name="P12">- ristrutturare la pagina in tempo reale.</text:p>
+   <text:p text:style-name="P12"/>
+   <text:p text:style-name="P10"><text:soft-page-break/><text:span text:style-name="T2">JavaScript, invece, è stato progettato sin dall’inizio per </text:span><text:span text:style-name="Strong_20_Emphasis">interagire nativamente con il browser</text:span><text:span text:style-name="T2"> e manipolare in tempo reale il contenuto della pagina. Questa stretta integrazione con il DOM è una delle </text:span><text:span text:style-name="Strong_20_Emphasis">caratteristiche fondanti</text:span><text:span text:style-name="T2"> del linguaggio e il motivo principale per cui è diventato lo </text:span><text:span text:style-name="Strong_20_Emphasis">standard per la programmazione web client-side</text:span><text:span text:style-name="T2">.</text:span></text:p>
    <text:p text:style-name="P12"><draw:frame draw:style-name="fr2" draw:name="Image1" text:anchor-type="char" svg:width="3.698in" svg:height="4.8008in" draw:z-index="0"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAgsAAAKnCAYAAAAIgQ5bAAGMVklEQVR4nOz9V5ckyZIeCH5G
        nPPgLCNp8bqk7+2+GHQ3ZnYxs4OH2cUL/ubOGTxg95wdzAFwgG40vfwWr0qeGZyHczfTFRE1
@@ -2348,6 +2359,8 @@
       </office:binary-data>
      </draw:image>
     </draw:frame><text:s text:c="58"/></text:p>
+   <text:p text:style-name="P12"/>
+   <text:p text:style-name="P12"/>
    <text:p text:style-name="P12"/>
    <text:p text:style-name="P12"/>
    <text:p text:style-name="P12"/>
@@ -6188,7 +6201,27 @@
        RmMtWjxqNBqNRqPRaDQajUaj0Wisxf8P48t8SaevKrMAAAAASUVORK5CYII=
       </office:binary-data>
      </draw:image>
-    </draw:frame></text:p>
+    </draw:frame>.</text:p>
+   <text:p text:style-name="P11"><text:soft-page-break/>17/07/2025</text:p>
+   <text:p text:style-name="P13">Nel contesto della manipolazione del DOM in JS, uno degli strumenti fondamentali per accedere agli elementi di una pagina HTML e’ rappresentato dai metodi di selezione offerti dall’oggetto <text:span text:style-name="T1">document. </text:span></text:p>
+   <text:p text:style-name="P13">Tra questi abbiamo document.getElebentByTagName() → consente di ottenere una collezioni di elementi basati sul nome del tag HTML, permettendo successive operazioni su ciascu elemento della collezione. </text:p>
+   <text:p text:style-name="P13"><text:s/>document.getElebentByTagName(tagName)</text:p>
+   <text:p text:style-name="P13">restituisce un oggetto contenente tutti gli elementi dell’albero DOM corrispondenti al nome del tag specifico. </text:p>
+   <text:p text:style-name="P13">let elements = document.getElementsByTagName(&quot;tagName&quot;);</text:p>
+   <text:p text:style-name="P21">METODO querySelector: origini, sintassi, funzionamento</text:p>
+   <text:p text:style-name="P15">Il metodo document.querySelector() e’ un’interfaccia dell’API DOM introdotta nel linguaggio Javascript <text:span text:style-name="T7">a partire dal 2013. </text:span></text:p>
+   <text:p text:style-name="P16">Conente di selezionare e restituire il primo elemento nel documento che corrisponde a un selettore CSS specificato come argomento. </text:p>
+   <text:p text:style-name="P18">Sintassi </text:p>
+   <text:p text:style-name="P18">document.querySelector(selettoreCSS)</text:p>
+   <text:p text:style-name="P16">il parametro e’ una stringa contenente un selettore valido secondo le regole del CSS.</text:p>
+   <text:p text:style-name="P17">Il primo nodo Element nel documento ch corrisponde al selettore, oppure null se nessuna corrispondenza viene trovata.</text:p>
+   <text:p text:style-name="P19">API → <text:span text:style-name="T2">Application Programming Interface.</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T2">E’ un’interfaccia che permette a due software di parlarsi tra loro. </text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T2">Immagina un cameriere in un ristorante: tu (il client) ordini un piatto (richiesta), il cameriere (l’API) prende la comanda, la porta in cucina (server), torna con il piatto pronto (risposta) e te lo serve. Tu non vedi cosa succede in cucina, ma ti arriva il risultato che volevi.</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T2">Le API servono per garantire modularita’ perche’ separano le parti di un sistema, rendendo piu’ semplice sviluppare, affiornare e mantenere il codice. </text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="Source_20_Text"><text:span text:style-name="T4">document.querySelectorAll()</text:span></text:span><text:span text:style-name="T2"> è un metodo del DOM che ti restituisce </text:span><text:span text:style-name="Strong_20_Emphasis">tutti</text:span><text:span text:style-name="T2"> gli elementi della pagina che corrispondono a uno o più selettori CSS.</text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T2">Ritorna una nodeList di con tutti gli elementi, su cui poi si deve iterare.</text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T2"/></text:p>
   </office:text>
  </office:body>
 </office:document>
